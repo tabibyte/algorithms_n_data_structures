@@ -20,7 +20,6 @@ class dynamic_array:
         self.array[self.size - 1] = None
         self.size -= 1
 
-
     def grow_size(self):
         self.capacity *= 2
         new_array = [None] * self.capacity
